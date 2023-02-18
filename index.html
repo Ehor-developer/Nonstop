@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--------エンコード・初期設定--------->
+    <meta charset="UTF-8">
+    <!--エンコードはUTF-8を指定する-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--レスポンシブ対応にする設定-->
+    <title>NonStop</title>
+    <!--タイトルを設定-->
+    <link rel="stylesheet" href="css.css">
+</head>
+<!--------現在時刻と日付を書き出す--------->
+<p class="realtime" id="time"><span style="font-size:20pt;" ;>時刻を取得中......</span></p>
+<p class="caption" id="datenow"><span style="font-size:10pt;" ;>日付を取得中...</span></p>
+<hr color="#4b37ff">
+<p class="message" id="message"><span style="font-size:20pt;">最新メッセージを取得中...</span></p>
+<hr color="#4b37ff">
+<p class="ruby">集中タイマー</p>
+<h4>あなたはどれくらい集中している？</h4>
+<!--------集中タイマー-------->
+<p class="timer" id="timerhour"><span style="font-size:20pt;" ;>開</span></p>
+<p class="timer" id="timerminute"><span style="font-size:20pt;" ;>始</span></p>
+<p class="timer" id="timertime"><span style="font-size:20pt;" ;>しています</span></p>
+</div>
+<!--------集中状態をを書き出す--------->
+<p class="appnot" id="notapp"><span style="font-size:20pt;">まだあなたは集中をしています。</span></p>
+<!--------ダークモード設定--------->
+<div class="switch-on-off">
+    <input id="check" class="switch" type="checkbox" />
+    <label for="check" class="switch-inside">
+</div>
+<br>
+<lavel class="dark">夜がお好きですか？ダークモードにする。</lavel>
+
+<!--------JS読み込み（Javascript）--------->
+
+<script src="preload.js"></script>
+
+</html>
